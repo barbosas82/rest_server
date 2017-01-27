@@ -1,0 +1,20 @@
+{
+  "name": "coisas_rest_server",
+  "description": "Demo REST API with Node",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "latest",
+    "http": "latest",
+    "mongoose": "latest",
+    "body-parser": "latest",
+    "mongoose-auto-increment": "latest",
+    "fs": "latest",
+    "Faker": "latest",
+    "oauth2orize": "latest",
+    "passport": "latest",
+    "passport-http": "latest",
+    "passport-http-bearer": "latest",
+    "passport-oauth2-client-password": "latest"    
+  }
+}
