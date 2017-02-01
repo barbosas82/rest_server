@@ -16,3 +16,11 @@ exports.add = function(req, res){
       }
   });
 };
+
+
+exports.listOne = function(req, res){
+  User.find({"username":req.params.username}, function(req, result){
+
+    return res.send(Object.prototype.toString.call(result));
+  });
+};
