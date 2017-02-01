@@ -54,6 +54,7 @@ module.exports = function(app){
   //Admin method to add user
   var users = require('./controllers/user');
   app.post('/useradd', passport.authenticate('bearer', { session: false }), users.add);
+  app.get('/listuser/:username', users.listOne);
 
   //Admin method to add client
   var clients = require('./controllers/client');
